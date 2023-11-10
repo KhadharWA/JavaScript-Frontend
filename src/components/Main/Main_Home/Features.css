@@ -1,0 +1,106 @@
+.Features .container {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .Features .container {
+      height: 600px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 1520px;
+      border: 1px solid #DAD9D3;
+    }
+  }
+  .Features .container .section-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .Features .container .section-title {
+      width: 430px;
+      height: 305px;
+      padding: 0;
+      margin-bottom: 120px;
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+  .Features .container .section-title h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .Features .container .section-title h2 {
+      font-family: "DM Sans", sans-serif;
+      font-size: 45px;
+      font-weight: 700;
+      padding-bottom: 44px;
+    }
+  }
+  .Features .container .section-title .btn-yellow-long {
+    width: 100%;
+    padding: 12px 25px;
+  }
+  @media (min-width: 768px) {
+    .Features .container .section-title .btn-yellow-long {
+      width: 100%;
+      padding: 15px 150px;
+    }
+  }
+  .Features .container .right-details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 768px) {
+    .Features .container .right-details {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .Features .container .right-details .box {
+    height: 220px;
+    width: 307px;
+  }
+  .Features .container .right-details .box .box-1 {
+    padding: 10px 35px;
+  }
+  .Features .container .right-details .box .box-1 i {
+    font-size: 22px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .Features .container .right-details .box .box-1 h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .Features .container .right-details .box .box-1 p {
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+
+
+  .btn-yellow-long {
+    background-color: #F9D783;
+    border: 1px solid #F9D783;
+    color: #191919;
+    text-decoration: none;
+    padding: 15px 150px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: "inter" sans-serif;
+    transition: background-color 0.2s ease-in-out, color 0.25s ease-in-out;
+  }
+  .btn-yellow-long i {
+    margin-left: 8px;
+    font-size: 0.9em;
+  }
+  .btn-yellow-long:hover {
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #F0EFE9;
+  }

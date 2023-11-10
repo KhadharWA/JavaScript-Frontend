@@ -1,0 +1,146 @@
+.btn-black {
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: "inter" sans-serif;
+    margin-right: 36px;
+    transition: background-color 0.2s ease-in-out, color 0.25s ease-in-out;
+  }
+  .btn-black i {
+    margin-left: 8px;
+    font-size: 0.9em;
+  }
+  .btn-black:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #191919;
+    color: #191919;
+  }
+  @media (min-width: 768px) {
+    .btn-black a {
+      display: inline-block;
+      margin-right: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+
+.About {
+    padding-bottom: 120px;
+  }
+  .About .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .About .container {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  }
+  .About .container .left {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+  }
+  @media (max-width: 768px) {
+    .About .container .left {
+      display: none;
+    }
+  }
+  .About .container .left .image-container {
+    position: relative;
+  }
+  .About .container .left .image-container img {
+    width: 550px;
+    height: 615px;
+    padding-left: 55px;
+    margin-top: 125px;
+  }
+  .About .container .left .image-container .text-box {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    background-color: #BEEBFF;
+    padding: 10px;
+    font-size: 16px;
+    height: 180px;
+    width: 368px;
+    padding-left: 24px;
+    padding-top: 40px;
+  }
+  .About .container .left .image-container .text-box p {
+    margin-top: 15px;
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .About .container .left .image-container .text-box .name {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #191919;
+    display: inline;
+  }
+  .About .container .left .image-container .text-box .role {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #F94D1C;
+    display: inline;
+  }
+  .About .container .content {
+    width: 100%;
+    max-width: 533px;
+  }
+  .About .container .content .section-title {
+    padding-bottom: 20px;
+  }
+  .About .container .content .section-title p {
+    padding-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .About .container .content .section-title h2 {
+      font-size: 30px;
+    }
+  }
+  .About .container .content .under-text p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.2;
+  }
+  .About .container .content .under-text p.under-text {
+    padding-bottom: 95px;
+  }
+  .About .container .content .under-text .play-button {
+    cursor: pointer;
+    padding: 15px 19px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.2s ease-in-out, color 0.25s ease-in-out;
+  }
+  .About .container .content .under-text .play-button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .About .container .content .under-text .play-text {
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .About .container .content .under-text .btn-black {
+    margin-right: 25px;
+  }

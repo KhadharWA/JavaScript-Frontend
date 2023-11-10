@@ -1,0 +1,36 @@
+.top {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+  @media (max-width: 768px) {
+    .top {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .top .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top .container .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+  }
+  @media (max-width: 768px) {
+    .top .container .Logo {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  .top .container .Logo img {
+    width: 100%;
+    margin-right: 10px;
+  }
+  @media (min-width: 1200px) {
+    .top .container .Logo img {
+      display: block;
+    }
+  }

@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+
+.team-members {
+    background-color: #f0d082;
+  }
+  .team-members .container .tophead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+    .team-members .container .tophead {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .team-members .container .tophead .section-title h2 {
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 768px) {
+    .team-members .container .tophead .right-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: auto;
+      padding-bottom: 25px;
+    }
+  }
+  .team-members .container .tophead .right-content .btn-yellow {
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  @media (max-width: 768px) {
+    .team-members .container .tophead .right-content .btn-yellow {
+      width: auto;
+    }
+  }
+  .team-members .container .tophead .right-content i {
+    padding-left: 8px;
+  }
+  .team-members .container .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+    .team-members .container .team {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      width: 100%;
+      gap: 10px;
+    }
+  }
+  .team-members .container .team h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-bottom: 5px;
+  }
+  .team-members .container .team p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(25, 25, 25, 0.5647058824);
+  }
+  @media (max-width: 768px) {
+    .team-members .container .team img {
+      width: 100%;
+      gap: 10px;
+    }
+  }
+  .team-members .container .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  .team-members .container .center-content .dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(25, 25, 25, 0.3137254902);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  .team-members .container .center-content .dot:hover {
+    background-color: #191919;
+  }
+  .team-members .container .center-content .dot-black {
+    width: 12px;
+    height: 12px;
+    background-color: #191919;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }

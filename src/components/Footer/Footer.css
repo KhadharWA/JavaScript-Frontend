@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap");
+
+
+html, body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+}
+
+.Wrapper {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+    background-color: #0E1021;
+    height: auto;
+    
+}
+
+@media (min-width: 768px) {
+    .footer {
+        height: 440px;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+.footer .Background-lines-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+}
+
+.footer .container .About-Company {
+    width: 309px;
+    height: 208px;
+    margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+    .footer .container .About-Company {
+        padding-top: 40px;
+        margin-top: 0;
+        height: 130px;
+    }
+}
+
+.footer .container .About-Company img {
+    padding-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.footer .container .About-Company p {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .footer .container .About-Company p {
+        display: none;
+    }
+}
+
+.footer .container .details {
+    flex-direction: column;
+    display: flex;
+    width: 164px;
+    margin-top: 140px;
+}
+
+@media (max-width: 768px) {
+    .footer .container .details {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+.footer .container .details h5 {
+    padding-bottom: 25px;
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer .container .details h5 .review-text {
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+    .footer .container .details h5 .review-text {
+        display: none;
+    }
+}
+
+.footer .container .details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .container .details li {
+    margin-bottom: 20px;
+}
+
+.footer .container .details a {
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .footer .container .details a {
+        display: none;
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+}
+
+.footer .container .details a:hover {
+    text-decoration: underline;
+    color: #98d4ff;
+}
+
+/* Copyright section */
+.copyright {
+    background-color: #0E1021;
+    border-top: 1px solid #666666;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .copyright {
+        padding-bottom: 0;
+    }
+}
+
+.copyright .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .copyright .container {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.copyright .container .last p {
+    color: #FFFFFF;
+    
+}
+
+.copyright .container .social-media ul {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    list-style: none; 
+    gap: 20px;
+  }
+
+.copyright .container .social-media a {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-left: 13px;
+    transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .copyright .container .social-media a {
+        margin-left: 0;
+        margin-right: 13px;
+    }
+}
+
+.copyright .container .social-media a:hover {
+    color: #64beff;
+}
+
