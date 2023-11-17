@@ -7,7 +7,7 @@
   @media (min-width: 768px) {
     .leave-massage  {
       position: relative;
-      z-index: 0;
+      z-index: -1;
     }
   }
   .leave-massage .container {
@@ -72,9 +72,7 @@
       margin-right: 0;
     }
   }
-  .leave-massage .container .form-1 .input-container-2 {
-    position: relative;
-  }
+  
   .leave-massage .container .form-1 .input-container-2 textarea {
     background-color: #FFFFFF;
     height: 160px;
@@ -94,9 +92,14 @@
     width: 100%;
     
   }
+
+  
+
   @media (max-width: 768px) {
     .leave-massage .container .form-1 .input-container-2 textarea {
       margin-right: 0;
+      
+      
     }
   }
   .leave-massage .container .form-1 .input-container-1 {
@@ -108,6 +111,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
     }
   }
   .leave-massage .container .form-1 .input-container-1 .btn-yellow-long {
