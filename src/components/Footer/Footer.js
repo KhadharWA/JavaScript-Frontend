@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import Backgroundlinesfooter from '../../assets/images/Background-lines-footer.svg'
 import Logotype2 from '../../assets/images/Logo-type-2.svg'
 import './Footer.css';
+import ButtonForLinks from '../Generics/ButtonForLinks';
 
 const Footer = () => {
   return (
@@ -15,42 +16,30 @@ const Footer = () => {
                 <a href="Home.html"><img src={Logotype2} alt="crito Logotype" /></a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
             </div>
-            <nav className="details">
-                <h5>Company <button className="review-text"><i className="fa-solid fa-angle-down"></i></button></h5>
-                <ul>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Features.html">Features</a></li>
-                    <li><a href="Works.html">Works</a></li>
-                    <li><a href="Career.html">Career</a></li>
-                </ul>
-                </nav>
-                <nav className="details">
-                    <h5>Help <button className="review-text"><i className="fa-solid fa-angle-down"></i></button></h5>
-                    <ul>
-                        <li><a href="contacts.html">Customer Support</a></li>
-                        <li><a href="contacts.html">Delivery Details</a></li>
-                        <li><a href="contacts.html">Terms & conditions</a></li>
-                        <li><a href="contacts.html">Privacy policy</a></li>
-                    </ul>
-                </nav>
-                <nav className="details">
-                    <h5>Resources <button className="review-text"><i className="fa-solid fa-angle-down"></i></button></h5>
-                    <ul>
-                        <li><a href="eBooks.html">Free eBooks</a></li>
-                        <li><a href="eBooks.html">Development tutorial</a></li>
-                        <li><a href="eBooks.html">How to - Blog</a></li>
-                        <li><a href="eBooks.html">Youtube Playlist</a></li>
-                    </ul>
-                </nav>
-                <nav className="details">
-                    <h5>Link <button className="review-text"><i className="fa-solid fa-angle-down"></i></button></h5>
-                    <ul>
-                        <li><a href="eBooks.html">Free eBooks</a></li>
-                        <li><a href="eBooks.html">Development tutorial</a></li>
-                        <li><a href="eBooks.html">How to - Blog</a></li>
-                        <li><a href="eBooks.html">Youtube Playlist</a></li>
-                    </ul>
-                </nav>
+                <ButtonForLinks sectionName="Company" links={[
+                    { label: "About", url: "eBooks.html" },
+                    { label: "Features", url: "eBooks.html" },
+                    { label: "Works", url: "eBooks.html" },
+                    { label: "Career", url: "eBooks.html" },
+                ]}  />
+                <ButtonForLinks sectionName="Help" links={[
+                    { label: "Customer Support", url: "/Support" },
+                    { label: "Delivery Details", url: "/Support" },
+                    { label: "Terms & Conditions", url: "/Support" },
+                    { label: "Privacy Policy", url: "/Support" },
+                ]}  />
+                <ButtonForLinks sectionName="Resources" links={[
+                    { label: "Free eBooks", url: "/eBooks" },
+                    { label: "Development tutorial", url: "/eBooks" },
+                    { label: "How to - Blog", url: "/eBooks" },
+                    { label: "Youtube Playlist", url: "/eBooks" },
+                ]}  />
+                <ButtonForLinks sectionName="Links" links={[
+                    { label: "Free eBooks", url: "/eBooks" },
+                    { label: "Development tutorial", url: "/eBooks" },
+                    { label: "How to - Blog", url: "/eBooks" },
+                    { label: "Youtube Playlist", url: "/eBooks" },
+                ]}  />
     </div>
 </section>
 

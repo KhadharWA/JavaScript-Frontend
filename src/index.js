@@ -11,6 +11,7 @@ import NewsDetails from './views/NewsDetails';
 import Contacts from './views/Contacts'
 import NotFound from './views/NotFound';
 import FullArticle from '../src/components/Generics/FullArtcile';
+import { FormProvider } from './components/Generics/FormContext';
 
 
 
@@ -18,6 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <FormProvider>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/News' element={<News />} />
@@ -26,6 +28,7 @@ root.render(
         <Route path='*' element={<NotFound />} />
         <Route path="/articles/:articleId" element={<FullArticle />} />
       </Routes>
+      </FormProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

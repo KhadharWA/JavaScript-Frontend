@@ -6,6 +6,7 @@ import Button from '../../Generics/Button'
 import './ArticleAndNews.css'
 
 
+
 const ArticleAndNews = () => {
   return (
     <section className="article-news">
@@ -20,6 +21,7 @@ const ArticleAndNews = () => {
                 <ArticleBox articleId={"cb24396b-ae21-4c34-a267-d0cd0600aa6d"} />
                 <ArticleBox articleId={"cc6c2b75-8ee7-4e4e-8a99-66fe89a4b789"} />
                 <ArticleBox articleId={"228c829d-4f66-431f-bb20-1b3aed2869b6"} />
+                
             </div>
             <div className="center-content">
                 <i id="active" className="fa-duotone fa-circle"></i>

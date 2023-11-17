@@ -5,11 +5,11 @@ const GoToTop = () => {
 
 
     const toggleVisibility = () => {
-        if (window.pageYYOffset > 300) {
+        if (window.scrollY > 300) {
             setIsVisible(true);
-        } else {
+          } else {
             setIsVisible(false);
-        }
+          }          
     };
 
     const scrollToTop = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import MyForm from '../../Generics/validate'
+import MyFormQ from '../../Generics/MyFormQ'
 
 
 import './Form.css'
@@ -14,7 +14,7 @@ const Form = () => {
                 <div className="section-title">
                     <h2>Leave us a message for any information.</h2>
                 </div>   
-               <MyForm />
+               <MyFormQ />
             </div>
         </section>
   )

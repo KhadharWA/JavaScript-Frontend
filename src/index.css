@@ -151,8 +151,7 @@ html, body {
     position: fixed;
     z-index: 1000;
     bottom: 20px; 
-    right: 20px;  
-    display: none; 
+    right: 20px;   
     height: 50px;
     width: 50px;
     font-size: 24px;
@@ -164,20 +163,18 @@ html, body {
     border-radius: 25px;
     border: none;
     transition: color 0.25s ease-in-out, background-color 0.3s ease-in-out;
+    display: none;
   }
   
-  .go-to-top.active {
-    display: block; 
-    
-    
+  
+
+  .go-to-top.visible {
+    display: block;
   }
 
   .go-to-top:hover {
-    display: block; 
-    animation: none;
     background-color: #6a658f;
     color: #F0EFE9;
-    
   }
 
   @keyframes changeColors {
